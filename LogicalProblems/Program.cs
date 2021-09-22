@@ -24,6 +24,9 @@ namespace LogicalProblems
                         int n = Convert.ToInt32(Console.ReadLine());
                         new FibonacciSeries().Print(n);
                         break;
+                    case 2:
+                        new PerfectNumber().IsPerfect();
+                        break;
                     default:
                         isRun = !isRun;
                         break;
