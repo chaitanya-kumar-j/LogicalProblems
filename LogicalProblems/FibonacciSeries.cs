@@ -10,7 +10,7 @@ namespace LogicalProblems
         {
             // define variables
             int firstNumber=0, secondNumber = 1, nextNumber;
-            Console.WriteLine($"First {n} numbers of fibinacci series are: ");
+            Console.WriteLine($"First {n} numbers of fibonacci series are: ");
             for (int i=1; i<=n; i++)
             {
                 nextNumber = firstNumber + secondNumber;
