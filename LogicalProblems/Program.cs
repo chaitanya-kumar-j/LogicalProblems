@@ -27,6 +27,16 @@ namespace LogicalProblems
                     case 2:
                         new PerfectNumber().IsPerfect();
                         break;
+                    case 3:
+                        // get the number from user
+                        Console.WriteLine("Enter a number to check is prime or not:");
+                        int number = Convert.ToInt32(Console.ReadLine());
+                        bool isPrime = new PrimeNumber().IsPrime(number);
+                        if (isPrime == true)
+                            Console.Write($"{number} is a prime number");
+                        else
+                            Console.Write($"{number} is not a prime number");
+                        break;
                     default:
                         isRun = !isRun;
                         break;
