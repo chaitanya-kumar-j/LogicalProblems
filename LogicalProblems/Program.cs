@@ -37,6 +37,9 @@ namespace LogicalProblems
                         else
                             Console.Write($"{number} is not a prime number");
                         break;
+                    case 4:
+                        new ReverseNumber().Reverse();
+                        break;
                     case 5:
                         new CouponNumbers().CountRandom();
                         break;
