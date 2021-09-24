@@ -43,6 +43,9 @@ namespace LogicalProblems
                     case 5:
                         new CouponNumbers().CountRandom();
                         break;
+                    case 6:
+                        new StopWatch().Measure();
+                        break;
                     default:
                         isRun = !isRun;
                         break;
